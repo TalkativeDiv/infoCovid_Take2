@@ -1,0 +1,34 @@
+button{
+	border: none;
+}
+.btn{
+	display: flex;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	box-shadow: var(--light-red) 20px 20px 60px inset,  var(--light-red) -20px -20px 60px inset;
+	padding: 0px;
+	background:  var(--light-red);
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s ease 0s;
+	.btn__text,
+	.btn__icon {
+		display: inline-flex;
+		align-items: center;
+		padding:0 24px ;
+		color: #fff;
+		height: 100%;
+	}
+
+}
+
+.rounded{
+	border-radius: 6rem;
+}
